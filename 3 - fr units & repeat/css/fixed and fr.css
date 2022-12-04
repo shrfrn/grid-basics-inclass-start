@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #dddddd;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 1fr 2fr 60px 3fr;
+    grid-auto-rows: 100px;
+    gap: 10px;
+
+    width: 90%;
+    margin: 200px auto;
+}
+.item {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-block-start: 20px;
+    background-color: lightblue;
+    text-align: center;
+}

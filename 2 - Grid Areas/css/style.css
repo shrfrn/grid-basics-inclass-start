@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #dddddd;
+}
+.grid-container {
+    background-color: #dddddd;
+}
+.grid-container > * {
+    font-size: 2em;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+header {
+    background-color: lightblue;
+}
+aside {
+    background-color: rgb(140, 170, 42);
+}
+.ad {
+    background-color: rgb(129, 103, 158);
+}
+main {
+    background-color: rgb(42, 170, 163);
+}
+footer {
+    background-color: rgb(39, 75, 63);
+}
