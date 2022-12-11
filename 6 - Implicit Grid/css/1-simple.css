@@ -1,6 +1,7 @@
 .grid-container {
     display: grid;
-    /* place-items: center; */
+    place-items: center;
+    /* align-content: start; */
     gap: 5px;
     width: 300px;
     height: 300px;
@@ -14,7 +15,7 @@
     background-color: lightsteelblue;
 }
 .grid-container > input {
-    justify-self: start;
+    place-self: start;
 }
 .grid-container > button {
     justify-self: end;

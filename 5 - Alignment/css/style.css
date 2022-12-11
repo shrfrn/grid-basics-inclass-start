@@ -4,11 +4,15 @@
     grid-template-rows: repeat(2, 12vh);
     gap: 10px;
 
-    /* align-items: center;
-    justify-items: center; */
-
-    /* justify-content: space-evenly;
-    align-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+    
+    /* place-items: start; */
+    
+    /* justify-content: space-evenly; */
+    /* align-content: center; */
+    
+    /* place-content: center; */
 
     height: 50vh;
     width: 70vw;
@@ -19,6 +23,7 @@
     font-family: sans-serif;
     font-weight: bold;
     font-size: 2em;
+    padding-inline-start: .2em;
     border: 1px solid gray;
 }
 .item1{
