@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px;
+
+    width: 80vw;
+
+    background-color: white;
+    margin: 100px auto;
+}
+
+.item {
+    padding-block-start: 80px;
+
+    font-size: 2rem;
+    text-align: center;
+}
